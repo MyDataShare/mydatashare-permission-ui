@@ -1,0 +1,101 @@
+{
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF",
+    "supplementary": "#A9A9A9",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "text": "#000000",
+    "textNegative": "#B01038",
+    "textSupplementary": "#666",
+    "border": "rgba(150, 150, 150, 0.3)",
+    "focus": "#0062B9",
+    "radio": "#0000BF",
+
+    "borderDark": "#CCCCCC",
+
+    "link": "#000000",
+    "linkMuted": "#666666",
+
+    "footerBackground": "#F1F1F1",
+    "infoBoxBorderPrimary": "#9FC9EB",
+    "infoBoxBorderSecondary": "#FFC61E",
+    "infoBoxBorderError": "#B01038",
+
+    "buttonColorPrimary": "#FFFFFF",
+    "buttonColorSecondary": "#0000BF",
+    "buttonColorSupplementary": "#0000BF",
+
+    "buttonBackgroundPrimary": "#0000BF",
+    "buttonBackgroundSecondary": "#FFFFFF",
+    "buttonBackgroundSupplementary": "#FFFFFF",
+
+    "buttonBorderPrimary": "#0000BF",
+    "buttonBorderSecondary": "#0000BF",
+    "buttonBorderSupplementary": "#FFFFFF",
+
+    "buttonHoverPrimary": "#000085",
+    "buttonHoverSecondary": "#E5E5F8",
+    "buttonHoverSupplementary": "#E5E5F8",
+
+    "buttonColorDisabledPrimary": "#FFFFFF",
+    "buttonColorDisabledSecondary": "#E5E5E5",
+    "buttonColorDisabledSupplementary": "#E5E5E5",
+    "buttonBorderDisabledPrimary": "#E5E5E5",
+    "buttonBorderDisabledSecondary": "#E5E5E5",
+    "buttonBorderDisabledSupplementary": "#FFFFFF",
+    "buttonBackgroundDisabledPrimary": "#E5E5E5",
+    "buttonBackgroundDisabledSecondary": "#FFFFFF",
+    "buttonBackgroundDisabledSupplementary": "#FFFFFF",
+
+    "buttonBorderHoverPrimary": "#000085",
+    "buttonBorderHoverSecondary": "#E5E5F8",
+    "buttonBorderHoverSupplementary": "#E5E5F8",
+
+    "buttonAccept": "#009245",
+    "buttonDecline": "#FD4F00",
+    "buttonNegative": "#BD2719",
+    "buttonAcceptHover": "#32A76A",
+    "buttonDeclineHover": "#FD7232",
+    "buttonNegativeHover": "#C83636",
+    "buttonAcceptDisabled": "#E5E5E5",
+    "buttonDeclineDisabled": "#E5E5E5",
+    "buttonNegativeDisabled": "#E5E5E5",
+
+    "loadingPrimary": "#0047B6",
+    "loadingSecondary": "#99B5E1",
+
+    "statusActive": "#7FC8A2",
+    "statusDeclined": "#FD4F00",
+    "statusDeleted": "#000000",
+    "statusDeprecated": "#000000",
+    "statusExpired": "#DEDFE1",
+    "statusPending": "#FFC61E",
+    "statusRevoked": "#FD4F00",
+    "statusTerminated": "#0000BF",
+    "statusWithdrawn": "#0000BF",
+
+    "notificationBorder": "#FFFFFF",
+    "notificationBackgroundError": "#FF2000",
+    "notificationBackgroundSuccess": "#DCFFED",
+    "notificationBackgroundWarning": "#FFF0A5",
+    "notificationContentError": "#FFFFFF",
+    "notificationContentSuccess": "#000000",
+    "notificationContentWarning": "#000000",
+
+    "logItemInfo": "#0072C6",
+    "logItemNeutral": "#000000",
+    "logItemPositive": "#009245",
+    "logItemNegative": "#FD4F00",
+
+    "inputRequiredAsteriskColor": "#000000",
+    "inputBorderColor": "grey",
+    "inputBorderErrorColor": "#B01038",
+    "inputLabelColor": "#1a1a1a"
+  },
+  "config": {
+    "fontFamily": "Arial",
+    "inputBorderWidth": "2px",
+    "inputBorderStyle": "solid"
+  }
+}

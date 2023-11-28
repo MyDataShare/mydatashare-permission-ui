@@ -1,0 +1,27 @@
+{
+  "colors": {
+    "primary": "#000000",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "text": "#000000",
+    "border": "rgba(150, 150, 150, 0.3)",
+    "focus": "#091c3b",
+
+    "footerBackground": "#F7F7F7",
+
+    "buttonColorPrimary": "#FFFFFF",
+    "buttonColorSecondary": "#9FC9EB",
+
+    "loadingPrimary": "#0F9B5F",
+    "loadingSecondary": "#F3F3F3",
+
+    "statusActive": "#0F9B5F",
+    "statusDeclined": "#FF7F00",
+    "statusDeleted": "#000000",
+    "statusExpired": "violet",
+    "statusPending": "yellow",
+    "statusRevoked": "#FF7F00",
+    "statusTerminated": "#000000",
+    "statusWithdrawn": "violet"
+  }
+}

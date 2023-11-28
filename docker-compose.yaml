@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # The development server with volume mounts
+  devserver:
+    container_name: permission-ui-devserver
+    build:
+      context: ./
+    env_file:
+      - .env.development
+    restart: unless-stopped
+    networks:
+      - default
+    ports:
+      - '3001:3001'
+    stdin_open: true # This keeps `npm start` from exiting immediately
+    volumes:
+      - ./:/develop
+      # - '/develop/node_modules'
+
+  # The built app served by nginx
+  client:
+    build:
+      context: ./
+      dockerfile: deploy.Dockerfile
+    env_file:
+      - .env.development
+    ports:
+      - '5000:5000'
+
+networks:
+  default:
