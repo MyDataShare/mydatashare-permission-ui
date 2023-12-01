@@ -16,7 +16,7 @@ services:
     stdin_open: true # This keeps `npm start` from exiting immediately
     volumes:
       - ./:/develop
-      # - '/develop/node_modules'
+      - /develop/node_modules
 
   # The built app served by nginx
   client:
