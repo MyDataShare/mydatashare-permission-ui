@@ -17,4 +17,5 @@ ENV NODE_ENV development
 RUN npm install --loglevel warn
 
 EXPOSE 3001
-CMD npm install; npm run start
+
+CMD ["npm", "start"]
